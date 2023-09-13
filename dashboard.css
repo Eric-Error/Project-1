@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(dark-gradient.jpg);
+}
+
+header {
+    background-color: #ffffff44;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+.chart-container {
+    width: 85%;
+    margin: 10px auto;
+    padding: 40px 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    transition: ease 0.5s;
+}
+
+/* .chart-container:hover
+{
+    width: 42%;
+    padding: 25px 25px ;
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* padding: 50px 50px; */
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.left-chart
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
+}
+
+.right-chart
+{
+    display: flex;
+
+    margin: auto;
+    padding: 10px 10px;
+    width: 480px;
+}
+
+/* .container:hover
+{
+    width: 42%;
+    padding: 25px 25px ;
+} */
